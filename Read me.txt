@@ -1,5 +1,5 @@
 Author: Balram Kishan Verma
-EmailID: balramverma@gmail.com
+https://twitter.com/balramkverma
 
 Database is stored in db folder. Please import it into your phpmyadmin.
 
