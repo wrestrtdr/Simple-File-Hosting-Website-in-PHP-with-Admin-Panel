@@ -1,0 +1,62 @@
+/*
+## @project: Simple jQuery theme switcher
+## @filename: theme-switcher.css
+## @description: the stylesheet for the theme switcher
+## @author: PlasticBrain Media LLC | plasticbrain.net
+*/
+
+#switcher {
+	text-align: center;
+	width: 160px;
+	margin: 20px auto;
+}
+
+#switcher p {
+	color: #fff;
+}
+
+#switcher ul li {
+	float: left;
+	margin: 0 3px;
+}
+
+#switcher ul li a.color {
+	width: 16px;
+	height: 16px;
+	display: block;
+	text-indent: -9999px;
+	background: #000;
+}
+
+#switcher ul li a.color.selected {
+	border: 1px solid #FFF;
+}
+	
+
+#switcher ul li a.color.blue {
+	background: #5c9ccc;
+}
+
+#switcher ul li a.color.dark-blue {
+	background: #0b3e6f;
+}
+
+#switcher ul li a.color.orange {
+	background: #f6a828;
+}
+
+#switcher ul li a.color.green{
+	background: #3a8104;
+}
+
+#switcher ul li a.color.red {
+	background: #b9432e;
+}
+
+#switcher ul li a.color.yellow {
+	background: #faed14;
+}
+
+#switcher ul li a.color.silver {
+	background: #cccccc;
+}

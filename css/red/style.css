@@ -1,0 +1,50 @@
+
+
+.ui-widget-header { border: 1px solid #e3a1a1; background: #ae432e url(images/ui-bg_highlight-soft_15_cc0000_1x100.png) 50% 50% repeat-x; color: #f2d4ce; font-weight: bold; }
+.ui-widget-header a { color: #f2d4ce; }
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #d8dcdf; background: #eeeeee url(images/ui-bg_highlight-hard_100_eeeeee_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ae432e; outline: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #ae432e; text-decoration: none; outline: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #cdd5da; background: #f2d4ce url(images/ui-bg_highlight-hard_100_f6f6f6_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #111111; outline: none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #111111; text-decoration: none; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #ae432e; background: #ffffff url(images/ui-bg_flat_65_ffffff_40x100.png) 50% 50% repeat-x; font-weight: bold; color: #ae432e; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #cc0000; outline: none; text-decoration: none; }
+
+h1, h3, #tabs ul li.ui-tabs-selected a, #tabs ul li a:hover {
+	color: #ae432e;
+}
+
+
+.status
+{
+	float:right;
+	display:inline;
+	margin-left:30px;
+	width:16px;
+	height:16px;
+}
+
+.form_status
+{
+	float:left;
+	margin-left:50px;
+	border:1px solid #ae432e;
+	padding:10px;
+	color:#ae432e;
+	display:none;
+}
+
+#upload_file
+{
+	margin:15px;
+}
+
+error
+{
+	color:#F00;
+	font-size:12px;
+	margin:10px;
+	display:block;
+}

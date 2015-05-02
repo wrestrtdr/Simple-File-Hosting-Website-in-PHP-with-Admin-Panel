@@ -1,0 +1,9 @@
+$msg
+	0=ok
+	1=no connect
+   	2= no db
+	3=captcha mismatch
+	4=added
+	5=error in query add user
+	6=duplicate users
+   

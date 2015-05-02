@@ -1,0 +1,13 @@
+/*
+## @project: SolidForm Maintenance page w/ ajax contact form
+## @filename: blue/style.css
+## @description: the stylesheet for the blue (default) theme
+## @author: PlasticBrain Media LLC | plasticbrain.net
+*/
+
+.ui-widget-header { border: 1px solid #4297d7; background: #5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x; color: #ffffff; font-weight: bold; }
+.ui-widget-header a { color: #ffffff; }
+
+h1, h3, #tabs ul li.ui-tabs-selected a, #tabs ul li a:hover {
+	color: #1C94C4;
+}

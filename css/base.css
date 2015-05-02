@@ -1,0 +1,429 @@
+
+/*****************************************************
+ * General/Layout
+ *****************************************************/ 
+body {
+	background: #515560 url( ../images/bg.jpg) no-repeat 50% 0;
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitsream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+	font-weight: normal;
+	color: #777;
+}
+
+#header {
+	width: 900px;
+	margin: 40px auto 20px;
+}
+
+#content {
+	background: #e7e7e7;
+	border: 1px solid #151111;
+	width: 900px;
+	margin: 0 auto 0;
+	text-align:center;
+	padding: 0 0 50px 0;
+}
+
+/*****************************************************
+ * Typography
+ *****************************************************/ 
+
+h1 {
+	font-size: 34px;
+	margin: 20px 0;
+	letter-spacing: -1px;
+	padding-left: 40px;
+}
+
+#header h1 {
+	color: #fff;
+	font-size: 24px;
+	padding: 0;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 10px 0 15px 0;
+	border-bottom: 1px dotted #ccc;
+	color: #777;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 20px;
+	padding: 0 0 5px 0;
+	border-bottom: 1px dotted #ccc;
+	margin: 0 0 5px 0;	
+}
+
+ul li {
+	font-size: 14px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.left {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;	
+}
+
+
+/*****************************************************
+ * Countdown Timer
+ *****************************************************/ 
+#countdown_holder {
+	display: block;
+	width: 700px;
+	margin: 0 auto;
+	padding: 10px 0;
+	border: 1px solid #ccc;
+	background: #EEEEEE;
+}
+
+
+/*****************************************************
+ * Progress Bar
+ *****************************************************/
+#progressbar {
+	margin: 0 auto 20px 0;
+	height: 25px;
+	background-color:#f2d4ce;
+}
+
+#progress_message {
+	font-size: 12px;
+}
+
+#progress_message ul li {
+	margin: 10px 0;
+	font-size: 12px;
+}
+
+/*****************************************************
+ * Tabs
+ *****************************************************/
+#tabs {
+	width: 700px;
+	margin: 50px auto 0;
+	border: 1px solid #ccc;
+	text-align: left;
+	padding:10px;
+}
+
+#tabs ul {
+	background: none;
+	border: none;
+}
+
+#tabs ul.ui-tabs-nav {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+
+#tabs ul li {
+	border: none;
+	background: none;
+}
+
+#tabs ul li.ui-tabs-selected, #tabs ul li.ui-tabs-selected.ui-state-hover {
+	border: 1px solid #ccc;
+	background: #F8F8F8;
+}
+
+#tabs ul li.ui-state-hover {
+	background: none;
+	border: none;	
+}
+
+
+#tabs ul li a {
+	font-size: 14px;
+	color: #999;
+}
+
+#tabs ul li.ui-tabs-selected a, #tabs ul li a:hover {
+	color: #1C94C4;
+}
+
+.ui-tabs {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+
+
+/*****************************************************
+ * Forms and Form related stuff
+ *****************************************************/
+input.text, textarea.text {
+	border: 1px solid #ccc !important;
+	padding: 2px;
+} 
+ 
+ul.form {
+	border: none;
+}
+
+ul.form li {
+	font-size: 14px;
+	border: none;
+	margin: 0 0 15px 0;
+}
+
+ul#frm_newsletter {
+	padding: 15px 10px 0 0;
+	width: 325px;
+	margin: 0 auto;
+}
+
+label.desc {
+	display: block;
+	font-weight: normal;
+	float: left;
+	width: 150px;
+	padding: 5px 0 0 0;
+	margin: 0 5px 0 0;
+	color: #444;
+	text-align: right;
+}
+
+
+li.buttons {
+	background: #fcfcfc !important;
+	display: block;
+	border: 1px solid #ccc !important;
+	padding: 10px;
+	width: 385px;
+}
+
+
+span#contact_status {
+	width: 220px;
+	display: block;	
+	float: left;
+	text-align: left;
+	font-size: 12px;
+	padding: 7px 0 0 0;
+}
+
+span#contact_status.loading {
+	padding: 5px 0 5px 20px;
+}
+
+span#contact_status.success {
+	color: green;
+	background: url( ../images/check.gif) no-repeat left 50%;
+	padding: 7px 0 5px 20px;
+}
+
+span#contact_status.error {
+	background: url( ../images/error.gif) no-repeat left 50%;
+	color: #c00;
+	padding: 7px 0 5px 20px;
+}
+
+#contact_info {
+	float: right;
+	width: 225px;
+}
+
+#contact_info ul {
+	margin: 0 0 20px;
+}
+
+
+.button {
+	padding: 2px 5px !important;
+	font-size: 12px !important;
+	cursor: pointer !important;
+}
+
+.file_upload
+{
+	border:1px solid #e6e6e6;
+	background-color:#f2f2f2;
+	padding:10px;
+}
+
+/*****************************************************
+ * Misc Stuff
+ *****************************************************/
+ 
+
+.clearfix {
+	display: block;
+	clear:both;
+}
+
+.floatleft {
+	float: left;
+}
+
+.floatright{
+	float: right;
+}
+
+
+span.required {
+	color: #c00;
+}
+
+span.highlight {
+	padding: 0px 8px;
+}
+
+/*****************************************************
+ * Messages
+ *****************************************************/
+.messages {
+ 	font-size: 14px;
+ 	margin: 0 0 20px;
+ 	display:none;
+ 	padding: 5px;
+}
+
+.messages p {
+	margin: 3px 5px;
+}
+
+.messages.error {
+	background: #FFEFEF;
+	border: 1px solid #c00;
+	color: #c00;
+}
+
+.messages.error p {
+	background: url( ../images/error.gif) no-repeat left 50%;
+	padding: 0 0 0 20px;
+}
+
+.messages.success {
+	background: #F9FFEF;
+	border: 1px solid #9BBF62;
+	color: green;
+}
+
+.messages.success p {
+	background: url( ../images/check.gif) no-repeat left 50%;
+	padding: 0 0 0 20px;
+}
+
+
+
+/*****************************************************
+ * jQuery UI Stuff
+ *****************************************************/
+
+
+
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden { display: none; }
+.ui-helper-hidden-accessible { position: absolute; left: -99999999px; }
+.ui-helper-reset { margin: 0; padding: 0; border: 0; outline: 0; line-height: 1.3; text-decoration: none; font-size: 100%; list-style: none; }
+.ui-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.ui-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .ui-helper-clearfix { height:1%; }
+.ui-helper-clearfix { display:block; }
+/* end clearfix */
+.ui-helper-zfix { width: 100%; height: 100%; top: 0; left: 0; position: absolute; opacity: 0; filter:Alpha(Opacity=0); }
+
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled { cursor: default !important; }
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.ui-icon { display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.ui-widget-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+
+
+/* Component containers
+----------------------------------*/
+.ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button { font-family: Trebuchet MS, Tahoma, Verdana, Arial, sans-serif; font-size: 1em; }
+.ui-widget-content { border: 1px solid #dddddd; background: #eeeeee url(../images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; color: #333333; }
+
+.ui-tabs { padding: .2em; zoom: 1; }
+.ui-tabs .ui-tabs-nav { list-style: none; position: relative; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { position: relative; float: left; border-bottom-width: 0 !important; margin: 0 .2em -1px 0; padding: 0; }
+.ui-tabs .ui-tabs-nav li a { float: left; text-decoration: none; padding: .5em 1em; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { padding-bottom: 1px; border-bottom-width: 0; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { padding: 1em 1.4em; display: block; border-width: 0; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+
+
+/* Interaction states
+----------------------------------*/
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #c5dbec; background: #dfeffc url(../images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x; font-weight: bold; color: #2e6e9e; outline: none; }
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited { color: #2e6e9e; text-decoration: none; outline: none; }
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #79b7e7; background: #d0e5f5 url(../../../../plasticbrain.net/demos/solidform/images/ui-bg_glass_75_d0e5f5_1x400.html) 50% 50% repeat-x; font-weight: bold; color: #1d5987; outline: none; }
+.ui-state-hover a, .ui-state-hover a:hover { color: #1d5987; text-decoration: none; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #79b7e7; background: #f5f8f9  50% 50% repeat-x; font-weight: bold; color: #e17009; outline: none; }
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited { color: #e17009; outline: none; text-decoration: none; }
+
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight {border: 1px solid #fad42e; background: #fbec88 url(../../../../plasticbrain.net/demos/solidform/images/ui-bg_flat_55_fbec88_40x100.html) 50% 50% repeat-x; color: #363636; }
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a { color: #363636; }
+.ui-state-error, .ui-widget-content .ui-state-error {border: 1px solid #cd0a0a; background: #fef1ec url(../../../../plasticbrain.net/demos/solidform/images/ui-bg_glass_95_fef1ec_1x400.html) 50% 50% repeat-x; color: #cd0a0a; }
+.ui-state-error a, .ui-widget-content .ui-state-error a { color: #cd0a0a; }
+.ui-state-error-text, .ui-widget-content .ui-state-error-text { color: #cd0a0a; }
+.ui-state-disabled, .ui-widget-content .ui-state-disabled { opacity: .35; filter:Alpha(Opacity=35); background-image: none; }
+.ui-priority-primary, .ui-widget-content .ui-priority-primary { font-weight: bold; }
+.ui-priority-secondary, .ui-widget-content .ui-priority-secondary { opacity: .7; filter:Alpha(Opacity=70); font-weight: normal; }
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.ui-corner-tl { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; }
+.ui-corner-tr { -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+.ui-corner-bl { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+.ui-corner-br { -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+.ui-corner-top { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+.ui-corner-bottom { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+.ui-corner-right {  -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+.ui-corner-left { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+.ui-corner-all { -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+
+
+
+/* Progressbar
+----------------------------------*/
+.ui-progressbar { height:2em; text-align: left; }
+.ui-progressbar .ui-progressbar-value {margin: -1px; height:100%; }/* Resizable
+----------------------------------*/
+
+
+
+
+
+
+

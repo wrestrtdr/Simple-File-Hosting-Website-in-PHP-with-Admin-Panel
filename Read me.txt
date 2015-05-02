@@ -1,0 +1,12 @@
+Author: Balram Kishan Verma
+EmailID: balramverma@gmail.com
+
+Database is stored in db folder. Please import it into your phpmyadmin.
+
+Default Admin User: 
+Username:admin
+Password:admin
+
+Default Normal User-
+Username:user
+Password:User
